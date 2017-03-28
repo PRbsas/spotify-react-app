@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.left {
+  width: 35vw;
+  float: left;
+  background-color: #fafafa;
+  height: 100vh;
+  color: #85155b;
+  padding-top: 10px;
+}
+
+.right {
+  width: auto;
+  overflow: hidden;
+  background-color: #85155b;
+  height: 100vh;
+  color: #fafafa;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.track {
+  margin-top: 20px;
+}
+
+.play-pause, .track-text {
+  display: inline;
+}
+
+.track-text {
+  padding-left: 25px;
+}

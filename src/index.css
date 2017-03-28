@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+input {
+  padding: 5px;
+  outline: none;
+  margin-right: 10px;
+  border-radius: 0;
+  border: 1px solid #fafafa;
+  border-bottom: 2px solid #85155b;
+  font-size: 1rem;
+  color: #85155b;
+  background-color: #fafafa;
+}
+
+button {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 0;
+  border: 1px solid #fafafa;
+  background: transparent;
+  color: #85155b;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+*:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 34px;
+}
